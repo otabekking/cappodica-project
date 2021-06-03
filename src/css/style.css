@@ -1,0 +1,562 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+@import '__fonts.css';
+
+.container {
+    max-width: 1201px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../images/Rectangle\ 43\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0 0px 0;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+
+}
+
+.header__list-link {
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.header__tel {
+    position: relative;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.header__tel::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/phone.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+
+}
+
+.text__title {
+    font-family: "Dancing script";
+    font-size: 200px;
+    line-height: 100px;
+    color: #000;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.text__title-item {
+    font-family: "Roboto Condensed";
+    font-size: 56px;
+    line-height: 60px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.Fairy {
+    height: 200px;
+}
+
+.fairy__title {
+    font-family: "Dancing script";
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-left: 250px;
+}
+
+.fairy__title-item {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    color: #000;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+
+.tail__1 {
+    display: flex;
+    max-width: 90%;
+    justify-content: space-between;
+}
+
+.tail__slider-img {
+    width: 950px;
+    height: 700px;
+}
+
+.tail__text {
+    margin-left: 50px;
+}
+
+.tail__text-item1 {
+    margin-top: 40px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.tail__text-item {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.slider__title {
+    margin-top: 40px;
+    display: block;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    line-height: 21px;
+
+
+}
+
+.slider__text {
+    margin-top: 50px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.slider__text-item3 {
+    margin-top: 40px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.trip__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-left: 250px;
+}
+
+.trip__slider-img {
+    width: 960px;
+    height: 1090px;
+}
+
+.trip__slider {
+    margin-top: 80px;
+}
+
+.trip__text {
+    margin-right: 40px;
+}
+
+.trip__title {
+    font-family: "Dancing script";
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-bottom: 180px;
+
+}
+
+.trip__title-item {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    display: block;
+    margin-left: 250px;
+    margin-top: -20px;
+
+}
+
+.trip__text-day {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    display: block;
+
+}
+
+.trip__text-item {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.trip__btn {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    width: 280px;
+    height: 50px;
+    border-color: #E2AB3F;
+    background-color: #fefefe;
+    padding: 10px;
+}
+
+.hotel {
+    height: 250px;
+}
+
+
+.hotel__title {
+    font-family: "Dancing script";
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-left: 250px;
+}
+
+.hotel__title-item {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    color: #000;
+    margin-top: -20px;
+    margin-left: 95px;
+}
+
+.hotel__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel__img {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.breakfast__img {
+    width: 500px;
+    height: 700px;
+}
+
+.hotel__imgitem-1 {
+    margin-top: 65px;
+}
+
+.hotel__imgitem-2 {
+    margin-top: 40px;
+}
+
+.hotel__imgitem-3 {
+    margin-top: 65px;
+}
+
+.hotel__imgitem-4 {
+    margin-top: 40px;
+}
+
+
+.hotel__text {
+    margin-left: 50px;
+    margin-top: -10px;
+
+}
+
+.hotel__text-item {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+}
+
+.hotel__text-item1 {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.price__text {
+    font-family: "Dancing script";
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-left: 220px;
+}
+
+.price__text-item {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    color: #000;
+    margin-top: -10px;
+    margin-left: 120px;
+
+}
+
+.price__inner {
+    display: flex;
+}
+
+.price__texts {
+    width: 40%;
+}
+
+.price__cost {
+    width: 35%;
+    margin-left: 60px;
+}
+
+.price__title-item {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.price-text {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.price__list {
+    list-style: none;
+    margin-left: -40px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.price__list-item {
+    margin-top: 20px;
+}
+
+.form__section {
+    margin-top: -200px;
+    padding: 0 0 150px;
+}
+
+.form__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__title {
+    font-family: "Dancing script";
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+}
+
+.form__title-item {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    color: #000;
+    margin-left: 200px;
+}
+
+.form__title2 {
+    font-family: "Dancing script";
+    font-size: 96px;
+    line-height: 128px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-left: 150px;
+}
+
+.form__title2text {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    color: #000;
+    margin-left: 200px;
+}
+
+.form__text {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+input {
+    display: block;
+    width: 380px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #E2AB3F;
+
+}
+
+button {
+    width: 280px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border: 1px solid #E2AB3F;
+    background-color: #fefefe;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+button:hover {
+    background-color: #E2AB3F;
+    transition: all .5s;
+    color: #fefefe;
+}
+
+.footer__section {
+    background-image: url(../images/Rectangle\ 42.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.footer__media {
+    background-image: url(../images/balon2.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+    /* background-size: cover; */
+    position: relative;
+    width: 386px;
+    height: 576px;
+    padding-top: -100px;
+
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-family: "Dancing script";
+    font-size: 86px;
+    line-height: 115px;
+    font-weight: normal;
+    margin-top: 150px;
+}
+
+.footer__media-title {
+    font-family: "Dancing script";
+    font-size: 86px;
+    line-height: 115px;
+    font-weight: normal;
+    color: #E2AB3F;
+    margin-left: 50px;
+}
+
+.media__number {
+    display: block;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-top: -50px;
+
+}
+
+.media__social3 {
+    margin-left: 70px;
+
+}
+
+.media__social2 {
+    margin-left: 0px;
+}
+
+.media__social {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+
+
+.media__img-phone {
+    margin-right: 10px;
+
+}
+
+.media__email {
+    display: block;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.media__img-mail {
+    margin-right: 5px;
+
+}
