@@ -479,7 +479,6 @@ button:hover {
     background-image: url(../images/balon2.png);
     background-repeat: no-repeat;
     background-position: 0px 50px;
-    /* background-size: cover; */
     position: relative;
     width: 386px;
     height: 576px;
@@ -507,6 +506,7 @@ button:hover {
     font-weight: normal;
     color: #E2AB3F;
     margin-left: 50px;
+    position: relative;
 }
 
 .media__number {
@@ -519,28 +519,19 @@ button:hover {
     color: #000;
     text-align: center;
     margin-top: -50px;
-
 }
 
-.media__social3 {
-    margin-left: 70px;
+.media__number::before {
+    content: ""url(../images/phone\ 2.png);
+    position: absolute;
+    left: 0px;
+    top: 201px;
+    right: 170px;
 
-}
-
-.media__social2 {
-    margin-left: 0px;
 }
 
 .media__social {
-    margin-left: 70px;
-    margin-top: 15px;
-}
-
-
-
-.media__img-phone {
-    margin-right: 10px;
-
+    margin-left: 15px;
 }
 
 .media__email {
@@ -556,7 +547,17 @@ button:hover {
     margin-right: 15px;
 }
 
-.media__img-mail {
-    margin-right: 5px;
+.media__email::before {
+    content: ""url(../images/mail\ 1.png);
+    position: absolute;
+    left: 0;
+    right: 266px;
+    top: 238px;
+}
 
+.llll {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 40px;
 }
